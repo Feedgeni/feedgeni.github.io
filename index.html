@@ -95,8 +95,23 @@
 			</section>
 			<section class="dark">
 				<div class="columns-2">
-					<div class="root-content">
-						illustration
+					<div id="all-in-one-ilubox" class="root-content">
+						<div id="illustration-bf" class="illustration active">
+							<img src="">
+							illustration 1
+						</div>
+						<div id="illustration-cf" class="illustration">
+							<img src="">
+							illustration 2
+						</div>
+						<div id="illustration-pm" class="illustration">
+							<img src="">
+							illustration 3
+						</div>
+						<div id="illustration-ms" class="illustration">
+							<img src="">
+							illustration 4
+						</div>
 					</div>
 					<div class="root-content">
 						<div class="content text right">
@@ -107,10 +122,28 @@
 								Create, manage and optimize product feeds for Google, Bing, Amazon and other 20+ shopping channels in many countries. All changes to your store inventory are automatically updated on your selected shopping engines.
 
 							</div>
-							
+							<div class="list-box select-illustration txt-body-large">
+								<ul>
+									<li id="bf-btn" class="active"> 
+										<div class="icon-checklist"></div>
+										<label>Basic Feed</label>
+									</li>
+									<li id="cf-btn"> 
+										<div class="icon-checklist"></div>
+										<label>Custom feeds</label>
+									</li>
+									<li id="pm-btn"> 
+										<div class="icon-checklist"></div>
+										<label>Product rules and mapping</label>
+									</li>
+									<li id="ms-btn" > 
+										<div class="icon-checklist"></div>
+										<label>Manage stores</label>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
-					
 				</div>
 			</section>
 			<section class="light">
@@ -124,7 +157,26 @@
 								Don’t operate in the dark. Improve your campaign performance with actionable and valuable insights. Identify top performing products and non-performing ones and adjust accordingly.
 
 							</div>
-						
+							<div class="list-box custom txt-body-large">
+								<ul>
+									<li>
+										<div class="icon-checklist"></div>
+										<label>Basic Feed</label>
+									</li>
+									<li>
+										<div class="icon-checklist"></div>
+										<label>Custom feeds</label>
+									</li>
+									<li> 
+										<div class="icon-checklist"></div>
+										<label>Product rules and mapping</label>
+									</li>
+									<li>
+										<div class="icon-checklist"></div>
+										<label>Manage stores</label>
+									</li>
+								</ul>
+							</div>
 						</div>
 					</div>
 					<div class="root-content">
@@ -143,9 +195,83 @@
 							<div class="description txt-body-large">
 								We want you to focus on the important aspects of your business that’s why we support over 30 carefully selected marketplaces, ecommerce platforms and shopping engines.
 							</div>
-						
 						</div>
 					</div>
+					<div class="columns-2">
+					<div id="all-in-one-ilubox" class="root-content">
+						<div id="illustration-mr" class="illustration active">
+							<img src="">
+							illustration 1
+						</div>
+						<div id="illustration-ep" class="illustration">
+							<img src="">
+							illustration 2
+						</div>
+						<div id="illustration-se" class="illustration">
+							<img src="">
+							illustration 3
+						</div>
+					</div>
+					<div class="root-content">
+						<div class="content text right">
+							<div class="list-box select-illustration with-desc txt-body-large">
+								<ul>
+									<li id="mr-btn" class="active"> 
+										<div class="icon-checklist"></div>
+										<div>
+											<label>Marketplaces</label>
+											<div id="mr-child" class="list-child">
+												<div class="description">
+													Don’t operate in the dark. Improve your campaign performance with actionable and valuable insights. Identify top performing products and non-performing ones and adjust accordingly.
+												</div>
+												<div class="button link hv-icon right">
+													Get To Integration
+													<div class="icon">
+														<img src="./assets/icons/icon-arrow.svg">
+													</div>
+												</div>
+											</div>
+										</div>	
+									</li>
+									<li id="ep-btn"> 
+										<div class="icon-checklist"></div>
+										<div>
+											<label>Ecommerce Platforms</label>
+											<div id="ep-child" class="list-child">
+												<div class="description">
+													We make it easy to import your products from major ecommerce platforms like Shopify and Bigcommerce.												</div>
+												<div class="button link hv-icon right">
+													Get To Integration
+													<div class="icon">
+														<img src="./assets/icons/icon-arrow.svg">
+													</div>
+												</div>
+											</div>
+										</div>	
+									</li>
+									<li id="se-btn"> 
+										<div class="icon-checklist"></div>
+										<div>
+											<label>Shopping Engines</label>
+											<div id="se-child" class="list-child">
+												<div class="description">
+													There are many shopping engines we have integrated with. In simple steps, you can publish your feeds to them and we’ll automatically update the feeds when you make changes to your inventory.
+												</div>
+												<div class="button link hv-icon right">
+													Get To Integration
+													<div class="icon">
+														<img src="./assets/icons/icon-arrow.svg">
+													</div>
+												</div>
+											</div>	
+										</div>	
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+				</div>
 				</div>
 			</section>
 			<section class="root-banner">
@@ -210,7 +336,116 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
 	
-  // scroller   
+	//All in one
+	$("#bf-btn").click(function(){
+		
+			 $("#illustration-bf").addClass("active");
+			 $("#illustration-cf").removeClass("active");
+			 $("#illustration-pm").removeClass("active");
+			 $("#illustration-ms").removeClass("active");
+
+			 $("#bf-btn").addClass("active");
+			 $("#cf-btn").removeClass("active");
+			 $("#pm-btn").removeClass("active");
+			$("#ms-btn").removeClass("active");
+	});
+
+	$("#cf-btn").click(function(){
+		
+			$("#illustration-cf").addClass("active");
+			 $("#illustration-bf").removeClass("active");
+			 $("#illustration-pm").removeClass("active");
+			 $("#illustration-ms").removeClass("active");
+
+			 $("#cf-btn").addClass("active");
+			 $("#bf-btn").removeClass("active");
+			 $("#pm-btn").removeClass("active");
+			$("#ms-btn").removeClass("active");
+	});
+
+	$("#pm-btn").click(function(){
+			$("#illustration-pm").addClass("active");
+			$("#illustration-cf").removeClass("active");
+			 $("#illustration-bf").removeClass("active");
+			 $("#illustration-ms").removeClass("active");
+
+			 $("#pm-btn").addClass("active");
+			 $("#cf-btn").removeClass("active");
+			 $("#bf-btn").removeClass("active");
+			$("#ms-btn").removeClass("active");
+	});
+
+	$("#ms-btn").click(function(){
+			$("#illustration-ms").addClass("active");
+			$("#illustration-pm").removeClass("active");
+			$("#illustration-cf").removeClass("active");
+			 $("#illustration-bf").removeClass("active");
+
+			 $("#ms-btn").addClass("active");
+			 $("#pm-btn").removeClass("active");
+			 $("#cf-btn").removeClass("active");
+			 $("#bf-btn").removeClass("active");
+		
+	});
+
+	//End All in one
+
+
+	//integrations
+	$("#mr-btn").click(function(){
+
+		$("#mr-child").addClass("active");
+		$("#ep-child").removeClass("active");
+		$("#se-child").removeClass("active");
+
+
+		$("#illustration-mr").addClass("active");
+		$("#illustration-ep").removeClass("active");
+		$("#illustration-se").removeClass("active");
+		
+
+		$("#mr-btn").addClass("active");
+		$("#ep-btn").removeClass("active");
+		$("#se-btn").removeClass("active");
+	});
+
+	$("#ep-btn").click(function(){
+
+		$("#mr-child").removeClass("active");
+		$("#ep-child").addClass("active");
+		$("#se-child").removeClass("active");
+
+
+		$("#illustration-mr").removeClass("active");
+		$("#illustration-ep").addClass("active");
+		$("#illustration-se").removeClass("active");
+		
+
+		$("#mr-btn").removeClass("active");
+		$("#ep-btn").addClass("active");
+		$("#se-btn").removeClass("active");
+	});
+
+	$("#se-btn").click(function(){
+
+		$("#mr-child").removeClass("active");
+		$("#ep-child").removeClass("active");
+		$("#se-child").addClass("active");
+
+
+		$("#illustration-mr").removeClass("active");
+		$("#illustration-ep").removeClass("active");
+		$("#illustration-se").addClass("active");
+		
+
+		$("#mr-btn").removeClass("active");
+		$("#ep-btn").removeClass("active");
+		$("#se-btn").addClass("active");
+	});
+
+	//End integrations
+
+  	// scroller   
     $(document).ready(function(){
         var scrollTop = 0;
         $(window).scroll(function(){
