@@ -127,7 +127,7 @@ section .description{
 }
 .image-header img{
 	height: 100%;
-	object-fit: cover;
+	
 }
 .text-header{
 	    position: absolute;
@@ -288,6 +288,7 @@ section.dark{
 .columns-2 .content.text{
 	width: 100%;
 }
+
 .columns-2.cards{
 	padding: 72px 0;
 }
@@ -308,7 +309,7 @@ section.dark{
 	margin: auto;
 }
 .root-content{
-	display: flex;align-items: center;
+	
 }
 .content.text{
 	width: 80%;
@@ -487,14 +488,12 @@ section.dark{
 .list-box.with-desc ul li .list-child{
 	transition: .2s;
 	overflow: hidden;
-	height: 0;
-	opacity: 0;
-	/*display: none;*/
+	
+	display: none;
 }
 .list-box.with-desc ul li.active .list-child{
-	opacity: 1;
-	height: 100%;
-	/*display: block;*/
+	
+	display: block;
 }
 .list-box.custom ul li{
 	background: #F1F1FC;
@@ -538,11 +537,21 @@ section.dark{
 .icon-checklist p{
 	
 }
-.illustration{
+.illustrations{
 	display: none;
+	position: relative;
+        height: 450px;
+    width: 320px;
+    transform: scale(1.5);
 }
-.illustration.active{
+.illustrations.single{
 	display: block;
+}
+.illustrations.active{
+	display: block;
+}
+.illustrations.right{
+	    width: calc(100% - 10px);
 }
 .icon{
 	width: 16px;
@@ -553,7 +562,62 @@ section.dark{
 .icon img{
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
+	
+}
+.illustration-header{
+	    width: calc(50% - 10px);
+    position: absolute;
+    right: 0;
+    top: 140px;
+    bottom: 0;
+    margin: auto;
+}
+.illustrations .illustration{
+	position: absolute;
+    top: 0;
+    left: 0px;
+    bottom: 0;
+    margin: auto;
+    display: inline-flex;
+}
+.illustrations.right .illustration{
+	
+    left: unset;
+    right: -40px;
+}
+.illustration-header img, .illustration img{
+	width: 100%;
+	height: 100%;
+}
+.get-margin{
+	margin: 100px auto;
+}
+.box-three ul{
+	display: flex;
+	align-items: flex-end;
+}
+.box-three{
+	width: 90%;
+	margin: 92px auto 32px;
+}
+.box-three ul li{
+	width: 100%;
+	text-align: center;
+	display: block;
+	list-style-type: none;
+	font-size: 16px;
+	font-weight: 700;
+	color: #0A0F3B;
+
+}
+.box-three ul li .icon{
+	margin: auto;
+	width: 72px;
+	height: 72px;
+	margin-bottom: 24px;
+}
+.box-three ul li label{
+	width: 100%;
 }
 @media only screen and (max-width: 1024px) {
 	.nav-header{
