@@ -31,6 +31,12 @@
 .menuButton {
 	margin: 5px;
 }
+.listButton {
+  grid-gap: 10px;
+  grid-template-rows: auto;
+  padding: 10px 15%;
+  background-color: #F1F1FC;
+}
 </style>
 <body>
 	<div class="root">
@@ -48,6 +54,11 @@
 									Blog
 								</a>
 							</li>-->
+							<li class="login-btn">
+								<a href="#pricing-plans">
+									Pricing
+								</a>
+							</li>
 							<li class="login-btn">
 								<a href="https://app.feedgeni.com" target="_blank">
 									Login
@@ -68,28 +79,20 @@
 			<div class="image-header">
 				<div class="text-header">
 					<div class="title txt-x-large">
-						The Easiest Way To Create And Manage Product Feeds
+						The Easiest Way To Create And Manage Product Feeds.
 					</div>
-					<div class="description txt-medium ">
-						We help 5000+ of merchants increase product visibility and sales by listing their products on shopping engines.
-
-
-					</div>
-					<a href="https://apps.shopify.com/product-feeds-generator" target="_blank" class="button blue">
-						Shopify Install
-					</a>
-					<br>
-					<br>
-					<a href="https://www.bigcommerce.com/apps/product-feed-generator/" target="_blank" class="button blue">
-						Bigcommerce Install
-					</a>
+					<div class="description txt-small">
+						We help thousands of Shopify and BigCommerce merchants to increase products visibility and sales by listing their products on shopping channels like Facebook shop, Google Shopping, Bing, Pinterest, Instagram, Snapchat, etc.
+					</div>				
 				</div>
 				<div class="illustration-header">
 					<img src="./assets/illustrations/illustration-header.svg">	
-				</div>
-
-				
+				</div>				
 			</div>
+			<div class="listButton">
+			<a href="https://apps.shopify.com/product-feeds-generator" target="_blank" class="button blue ">Shopify Install</a>
+			<a href="https://www.bigcommerce.com/apps/product-feed-generator/" target="_blank" class="button blue ">Bigcommerce Install</a>
+			</div>	
 		</header>
 		<main>
 			<section class="light bottom-radius">
@@ -332,14 +335,13 @@
 							<a href="https://www.bigcommerce.com/apps/product-feed-generator/" target="_blank" class="button line right">
 								Bigcommerce Install
 							</a>
-						</div>
-						
-						
+						</div>					
 					</div>
 					
 				</div>
 				
 			</section>
+			<iframe id="pricing-plans" src="https://app.feedgeni.com/app/pricing" height="650" width="100%" title="Pricing" scrolling="No"></iframe>
 		</main>
 		<footer>
 			<div class="single-section">
