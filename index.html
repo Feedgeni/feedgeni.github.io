@@ -1,545 +1,638 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-	<title>FeedGeni : The easiest way to create and manage product feeds</title>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="-">
-	
-	<meta property="og:title" content="FeedGeni"/>
-	<meta property="og:description" content="Enables merchants to create, manage and optimize product feeds for Snapchat, Facebook, Instagram, Pinterest, Google, Bing and other 30+ shopping channels in many countries."/>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedGeni : The easiest way to create and manage products feed</title>
 
-	<!-- <meta property="og:image" content="https://i.pinimg.com/originals/7d/8f/aa/7d8faaee5d079657d02aeab9e4576a35.jpg"/> -->
+    <meta property="og:title" content="FeedGeni" />
+    <meta property="og:description"
+        content="Enables merchants to create, manage and optimize product feeds for Snapchat, Facebook, Instagram, Pinterest, Google, Bing and other 30+ shopping channels in many countries." />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
-    
-	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
-
-	<link rel="stylesheet" type="text/css" href="assets/css/style.css">		
-	<link rel="icon" 
-      type="image/png" 
-      href="https://statics2.seodoctorapp.com/images/feedgeni.png">
-	<!-- <link rel="icon" href="/assets/image/feedgeni-logo.svg" sizes="16x16 32x32 64x64" type="image/png">  -->
-	
-	 <!-- <link rel="canonical" href="https://feedgeni.com"/> -->
-
-
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
-<style>
-.menuButton {
-	margin: 5px;
-}
-.listButton {
-  grid-gap: 10px;
-  grid-template-rows: auto;
-  padding: 10px 15%;
-  background-color: #F1F1FC;
-}
-</style>
 <body>
-	<div class="root">
-		<header>
-			<div class="nav-header">
-				<div class="nav ">
-					<div class="logo">
-						<img src="assets/icons/feedgeni-logo.svg">
-					</div>
-					<div class="nav-primary right">
-						<ul>
-							
-							<!-- <li>
-								<a href="#" target="_blank">
-									Blog
-								</a>
-							</li>-->
-							<li class="login-btn">
-								<a href="#pricing-plans">
-									Pricing
-								</a>
-							</li>
-							<li class="login-btn">
-								<a href="https://app.feedgeni.com" target="_blank">
-									Login
-								</a>
-							</li>
-							<li class="login-btn">
-								<a href="https://help.expresstech.io/help/3350240449" target="_blank">
-									Contact Us
-								</a>
-							</li>
-						</ul>
-					</div>
-					<div class="nav-mobile right">
-						<img src="assets/icons/icon-menu.svg">
-					</div>
-				</div>
-			</div>
-			<div class="image-header">
-				<div class="text-header">
-					<div class="title txt-x-large">
-						The Easiest Way To Create And Manage Product Feeds.
-					</div>
-					<div class="description txt-small">
-						We help thousands of Shopify and BigCommerce merchants to increase products visibility and sales by listing their products on shopping channels like Facebook shop, Google Shopping, Bing, Pinterest, Instagram, Snapchat, etc.
-					</div>
-					<a href="https://apps.shopify.com/product-feeds-generator" target="_blank" class="button blue ">Shopify</a>
-					<a href="https://www.bigcommerce.com/apps/product-feed-generator/" target="_blank" class="button blue ">Bigcommerce</a>								
-				</div>
-				<div class="illustration-header">
-					<img src="./assets/illustrations/illustration-header.svg">	
-				</div>				
-			</div>
-				
-		</header>
-		<main>
-			<section class="light bottom-radius">
-				<div class="columns-1">
-					<div class="root-content">
-						<div class="content text text-center center">
-							<div class="title txt-large ">
-								SHOPPING CHANNELS
-							</div>
-							<div class="description txt-body-large">
-								Create, manage and optimize product feeds for Google, Bing, Amazon and other 20+ shopping channels in many countries. All changes to your store inventory are automatically updated on your selected shopping engines.
-							</div>
-							<div class="box-three">
-								<ul>
-									<li>
-										<div class="icon">
-											<img src="./assets/icons/icon-channels.svg">
-										</div>
-										
-										<label>Many channels</label>
-									</li>
-									<li>
-										<div class="icon">
-											<img src="./assets/icons/icon-easy-to-use.svg">
-										</div>
-										<label>Easy to use</label>
-									</li>
-									<li>
-										<div class="icon">
-											<img src="./assets/icons/icon-automate.svg">
-										</div>
-										<label>Fully automated</label>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="dark">
-				<div class="columns-2">
-					<div id="all-in-one-ilubox" class="root-content">
-						<div id="illustration-bf" class="illustrations active">
-							<div class="illustration">
-								<img src="./assets/illustrations/illustration-basic-feed.svg">	
-							</div>
-						</div>
-						<div id="illustration-cf" class="illustrations">
-							<div class="illustration">
-								<img src="./assets/illustrations/illustration-custom-feed.svg">	
-							</div>
-						</div>
-						<div id="illustration-pm" class="illustrations">
-							<div class="illustration">
-								<img src="./assets/illustrations/illustration-rules.svg">	
-							</div>
-						</div>
-						<div id="illustration-ms" class="illustrations">
-							<div class="illustration">
-								<img src="./assets/illustrations/illustration-manage-stores.svg">	
-							</div>
-						</div>
-					</div>
-					<div class="root-content">
-						<div class="content text right">
-							<div class="title txt-large ">
-								ALL IN ONE
-							</div>
-							<div class="description txt-body-large">
-								Create, manage and optimize product feeds for Google, Bing, Amazon and other 20+ shopping channels in many countries. All changes to your store inventory are automatically updated on your selected shopping engines.
+    <header class="bg-light">
+        <!-- Nav Bar-->
+        <nav class="py-3 navbar navbar-expand-md fixed-top auto-hiding-navbar navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/icons/feedgeni-logo.svg" class="logo" alt="FeedGeni Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing-plans">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://app.feedgeni.com">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://help.expresstech.io/help/3350240449">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-							</div>
-							<div class="list-box select-illustration txt-body-large">
-								<ul>
-									<li id="bf-btn" class="active"> 
-										<div class="icon-checklist"></div>
-										<label>Basic Feed</label>
-									</li>
-									<li id="cf-btn"> 
-										<div class="icon-checklist"></div>
-										<label>Custom feeds</label>
-									</li>
-									<li id="pm-btn"> 
-										<div class="icon-checklist"></div>
-										<label>Product rules and mapping</label>
-									</li>
-									<li id="ms-btn" > 
-										<div class="icon-checklist"></div>
-										<label>Manage stores</label>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>
-			<section class="light">
-				<div class="columns-2">
-					<div class="root-content">
-						<div class="content text right">
-							<div class="title txt-large ">
-								INSIGHTFUL TRAFFIC ANALYSIS
-							</div>
-							<div class="description txt-body-large">
-								Don’t operate in the dark. Improve your campaign performance with actionable and valuable insights. Identify top performing products and non-performing ones and adjust accordingly.
+        <!-- Nav Bar end-->
+        <!--Hero Section Start-->
+        <section id="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h1 class="title">The Easiest Way To Create And Manage Product Feeds.</h1>
+                        <p>We help thousands of Shopify and BigCommerce merchants to increase products visibility and
+                            sales by listing their products on shopping channels like Facebook shop, Google Shopping,
+                            Bing, Pinterest, Instagram, Snapchat, etc.</p>
+                        <div class="row">
+                            <div class="col-sm">
+                                <a href="https://apps.shopify.com/product-feeds-generator" target="_blank">
+                                    <button type="button" class="btn btn-primary btn-lg">Shopify</button>
+                                </a>
+                                <a href="https://www.bigcommerce.com/apps/product-feed-generator/" target="_blank">
+                                    <button type="button" class="btn btn-secondary btn-lg">BigCommerce</button>
+                                </a>
+                            </div>
 
-							</div>
-							<div class="list-box custom txt-body-large">
-								<ul>
-									<li>
-										<div class="icon-checklist"></div>
-										<label>Basic Feed</label>
-									</li>
-									<li>
-										<div class="icon-checklist"></div>
-										<label>Custom feeds</label>
-									</li>
-									<li> 
-										<div class="icon-checklist"></div>
-										<label>Product rules and mapping</label>
-									</li>
-									<li>
-										<div class="icon-checklist"></div>
-										<label>Manage stores</label>
-									</li>
-								</ul>
-							</div>
-						</div>
-					</div>
-					<div class="root-content">
-						<div class="illustrations single right">
-							<div class="illustration">
-								<img src="./assets/illustrations/illustration-insightfull.svg">	
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</section>
-			<section class="dark bottom-radius">
-				<div class="columns-1">
-					<div class="root-content">
-						<div class="content text text-center center">
-							<div class="title txt-large ">
-								INTEGRATIONS
-							</div>
-							<div class="description txt-body-large">
-								We want you to focus on the important aspects of your business that’s why we support over 30 carefully selected marketplaces, ecommerce platforms and shopping engines.
-							</div>
-						</div>
-					</div>
-				</div>
-				<div class="columns-2 get-margin">
-						<div class="root-content">
-						
+                        </div>
 
-							<div class="illustrations active">
-								<div class="illustration" >
-									<img src="./assets/illustrations/illustration-integration.svg">	
-								</div>
-							</div>
-						</div>
-						<div class="root-content">
-							<div class="content text right">
-								<div class="list-box select-illustration with-desc txt-body-large">
-									<ul>
-										<li id="mr-btn" class="active"> 
-											<div class="icon-checklist"></div>
-											<div>
-												<label>Marketplaces</label>
-												<div id="mr-child" class="list-child">
-													<div class="description">
-														Don’t operate in the dark. Improve your campaign performance with actionable and valuable insights. Identify top performing products and non-performing ones and adjust accordingly.
-													</div>
-													<div class="button link hv-icon right">
-														Get To Integration
-														<div class="icon">
-															<img src="./assets/icons/icon-arrow.svg">
-														</div>
-													</div>
-												</div>
-											</div>	
-										</li>
-										<li id="ep-btn"> 
-											<div class="icon-checklist"></div>
-											<div>
-												<label>Ecommerce Platforms</label>
-												<div id="ep-child" class="list-child">
-													<div class="description">
-														We make it easy to import your products from major ecommerce platforms like Shopify and Bigcommerce.												</div>
-													<div class="button link hv-icon right">
-														Get To Integration
-														<div class="icon">
-															<img src="./assets/icons/icon-arrow.svg">
-														</div>
-													</div>
-												</div>
-											</div>	
-										</li>
-										<li id="se-btn"> 
-											<div class="icon-checklist"></div>
-											<div>
-												<label>Shopping Engines</label>
-												<div id="se-child" class="list-child">
-													<div class="description">
-														There are many shopping engines we have integrated with. In simple steps, you can publish your feeds to them and we’ll automatically update the feeds when you make changes to your inventory.
-													</div>
-													<div class="button link hv-icon right">
-														Get To Integration
-														<div class="icon">
-															<img src="./assets/icons/icon-arrow.svg">
-														</div>
-													</div>
-												</div>	
-											</div>	
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-					
-					</div>
-			</section>
-			<iframe id="pricing-plans" src="https://app.feedgeni.com/app/pricing" height="650" width="100%" title="Pricing" style="border:none;" scrolling="No"></iframe>
-			<section class="root-banner">
-				<div class="banner">
-					<div class="columns-2">
-						<div class="content">
-							<div class="title txt-large ">
-								Get Started With A Free Trial
-							</div>
-						</div>
-						<div class="content buttons">
+                    </div>
 
-							<a href="https://apps.shopify.com/product-feeds-generator" class="button line right" target="_blank">
-								Shopify Install
-							</a>
+                    <div class="col img-col">
+                        <img src="./assets/illustrations/illustration-header.svg" alt="FeedGeni Hero"
+                            class="img-fluid" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Hero Section End-->
+    </header>
+    <main>
+        <section>
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="title">
+                        SHOPPING CHANNELS
+                    </h2>
+                    <div class="description txt-body-large">
+                        Create, manage and optimize product feeds for Google Shopping Feed (All regions), Bing Shopping,
+                        Facebook Shop, Instagram Feed, Pinterest Product Feed, Snapchat, Amazon, Connexity, Myshopping,
+                        Priceme, Pricerunner, Sortprice, Getprice and more shopping
+                        channels in many countries. All changes to your store inventory are automatically updated on
+                        your selected shopping engines.
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="img-col">
+                                <img src="./assets/icons/icon-channels.svg">
+                            </div>
+                            <label class="fw-bold py-2">Many channels</label>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="img-col py-2">
+                                <img src="./assets/icons/icon-easy-to-use.svg">
+                            </div>
+                            <label class="fw-bold">Easy to use</label>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="img-col py-2">
+                                <img src="./assets/icons/icon-automate.svg">
+                            </div>
+                            <label class="fw-bold">Fully automated</label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bg-light" id="all-in-1">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="title">
+                        ALL IN ONE
+                    </h2>
+                </div>
+                <div class="row light">
 
-							<br>
-							<br>
-							<a href="https://www.bigcommerce.com/apps/product-feed-generator/" target="_blank" class="button line right">
-								Bigcommerce Install
-							</a>
-						</div>					
-					</div>
-					
-				</div>
-				
-			</section>
-		</main>
-		<footer>
-			<div class="single-section">
-				<div class="header">
-					<div class="title">
-						<div class="logo center">
-							<img src="assets/icons/feedgeni-logo.svg">
-						</div>
-					</div>
-					<div class="description">
-						We help over 5000+ merchants increase product visibility and sales by listing their products on shopping engines.
+                    <div class="col">
+                        <div id="all-in-one-ilubox">
+                            <div id="illustration-bf" class="illustrations active">
+                                <div class="illustration">
+                                    <img src="./assets/illustrations/illustration-basic-feed.svg">
+                                </div>
+                            </div>
+                            <div id="illustration-cf" class="illustrations">
+                                <div class="illustration">
+                                    <img src="./assets/illustrations/illustration-custom-feed.svg">
+                                </div>
+                            </div>
+                            <div id="illustration-pm" class="illustrations">
+                                <div class="illustration">
+                                    <img src="./assets/illustrations/illustration-rules.svg">
+                                </div>
+                            </div>
+                            <div id="illustration-ms" class="illustrations">
+                                <div class="illustration">
+                                    <img src="./assets/illustrations/illustration-manage-stores.svg">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="content text right">
 
-					</div>
-				</div>	
-			</div>
-			<div class="nav ">
-				<div class="nav-primary center">
-					<ul>
-						<li>
-							<a href="https://help.feedgeni.com/en/articles/4115544-privacy-policy" target="_blank">
-								Privacy Policy
-							</a>
-						</li>
-						<li>
-							<a href="https://help.feedgeni.com/en/articles/4116227-terms-of-service" target="_blank">
-								Terms Of Service
-							</a>
-						</li>
-						
-					</ul>
-				</div>
-			</div>
-			<div class="copyright text-center">
-				© 2020 FeedGeni. All Rights Reserved.
-			</div>
-		</footer>
-	</div>
+                            <div class="description txt-body-large">
+                                Create, manage and optimize product feeds for Google, Bing, Amazon and other 20+
+                                shopping channels in many countries. All changes to your store inventory are
+                                automatically updated on your selected shopping engines.
+
+                            </div>
+                            <div class="list-box select-illustration txt-body-large">
+                                <ul>
+                                    <li id="bf-btn" class="active">
+                                        <div class="icon-checklist"></div>
+                                        <label>Basic Feed</label>
+                                    </li>
+                                    <li id="cf-btn">
+                                        <div class="icon-checklist"></div>
+                                        <label>Custom feeds</label>
+                                    </li>
+                                    <li id="pm-btn">
+                                        <div class="icon-checklist"></div>
+                                        <label>Product rules and mapping</label>
+                                    </li>
+                                    <li id="ms-btn">
+                                        <div class="icon-checklist"></div>
+                                        <label>Manage stores</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="light">
+            <div class="container">
+                <h2 class="title text-center">
+                    INSIGHTFUL TRAFFIC ANALYSIS
+                </h2>
+                <div class="row">
+
+                    <div class="col">
+                        <div class="content text right">
+
+                            <div class="description txt-body-large">
+                                Don’t operate in the dark. Improve your campaign performance with actionable and
+                                valuable insights. Identify top performing products and non-performing ones and adjust
+                                accordingly.
+
+                            </div>
+                            <div class="list-box custom txt-body-large">
+                                <ul>
+                                    <li>
+                                        <div class="icon-checklist"></div>
+                                        <label>Basic Feed</label>
+                                    </li>
+                                    <li>
+                                        <div class="icon-checklist"></div>
+                                        <label>Custom feeds</label>
+                                    </li>
+                                    <li>
+                                        <div class="icon-checklist"></div>
+                                        <label>Product rules and mapping</label>
+                                    </li>
+                                    <li>
+                                        <div class="icon-checklist"></div>
+                                        <label>Manage stores</label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col img-col">
+                        <img src="./assets/illustrations/illustration-insightfull.svg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="integrations" class="bg-light">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="title">
+                        INTEGRATIONS
+                    </h2>
+                    <p class="description txt-body-large">
+                        We want you to focus on the important aspects of your business that’s why we support over 30
+                        carefully selected marketplaces, ecommerce platforms and shopping engines. We support format
+                        like TXT, CSV and XML product feeds.
+                    </p>
+                </div>
+                <div class="row">
+                    <div class="col img-col">
+                        <div class="active">
+                            <img src="./assets/illustrations/illustration-integration.svg" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="text right">
+                            <div class="list-box select-illustration with-desc txt-body-large">
+                                <ul>
+                                    <li id="ep-btn" class="active">
+                                        <div class="icon-checklist"></div>
+                                        <div>
+                                            <label>Ecommerce Platforms</label>
+                                            <div id="ep-child" class="list-child">
+                                                <div class="description">
+                                                    We make it easy to import your products from major ecommerce
+                                                    platforms like Shopify and Bigcommerce. </div>
+
+                                                <div class="button link hv-icon ">
+                                                    <a href="https://apps.shopify.com/product-feeds-generator"
+                                                        target="_blank">
+                                                        Shopify Integration</a>
+                                                    <span class="icon">
+                                                        <img src="./assets/icons/icon-arrow.svg">
+                                                    </span>
+
+                                                </div>
+                                                <div class="button link hv-icon right">
+                                                    <a href="https://www.bigcommerce.com/apps/product-feed-generator/"
+                                                        target="_blank">
+                                                        BigCommerce Integration
+                                                    </a>
+                                                    <div class="icon">
+                                                        <img src="./assets/icons/icon-arrow.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li id="mr-btn">
+                                        <div class="icon-checklist"></div>
+                                        <div>
+                                            <label>Marketplaces</label>
+                                            <div id="mr-child" class="list-child">
+                                                <div class="description">
+                                                    Don’t operate in the dark. Improve your campaign performance with
+                                                    actionable and valuable insights. Identify top performing products
+                                                    and non-performing ones and adjust accordingly.
+                                                </div>
+                                                <!-- <div class="button link hv-icon right">
+                                                    Get To Integration
+                                                    <div class="icon">
+                                                        <img src="./assets/icons/icon-arrow.svg">
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li id="se-btn">
+                                        <div class="icon-checklist"></div>
+                                        <div>
+                                            <label>Shopping Engines</label>
+                                            <div id="se-child" class="list-child">
+                                                <div class="description">
+                                                    There are many shopping engines we have integrated with. In simple
+                                                    steps, you can publish your feeds to them and we’ll automatically
+                                                    update the feeds when you make changes to your inventory.
+                                                </div>
+                                                <!-- <div class="button link hv-icon right">
+                                                    Get To Integration
+                                                    <div class="icon">
+                                                        <img src="./assets/icons/icon-arrow.svg">
+                                                    </div>
+                                                </div> -->
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <!-- <iframe id="pricing-plans" src="https://app.feedgeni.com/app/pricing" height="650" width="100%" title="Pricing"
+            style="border:none;" scrolling="No"></iframe> -->
+        <section id="pricing-plans" class="py-4">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="title">
+                        PRICING
+                    </h2>
+                    <p class="description txt-body-large">
+                        Choose the plan that meets your needs. Grab <em>20% discount</em> with yearly subscription.
+                    </p>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col my-2">
+                        <div class="card border-primary h-100">
+                            <div class="card-header text-center bg-primary fw-bold text-white">FREE</div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">$ 0/month</h5>
+                            </div>
+                            <div class="m-2">
+                                <p><span>✓</span> &nbsp; Up to 50 SKUs</p>
+                                <p><span>✓</span> &nbsp; 1 Shopping Channel</p>
+                                <p><span>✓</span> &nbsp; 1 Feed Creation</p>
+                                <p><span>✓</span> &nbsp; Manual Feed Update</p>
+                                <p><span>✓</span> &nbsp; Manual Product Update</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col my-2">
+                        <div class="card border-primary h-100">
+                            <div class="card-header text-center bg-primary fw-bold text-white">BASIC</div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">$ 19/month</h5>
+                                <p class="card-text">or <strong>$15.99/month</strong> with paying yearly Subscription
+                                    Fees of $191</p>
+                            </div>
+                            <div class="m-2">
+                                <p><span>✓</span> &nbsp; Up to 1000 SKUs</p>
+                                <p><span>✓</span> &nbsp; 10+ Shopping Engines</p>
+                                <p><span>✓</span> &nbsp; 5 Feeds Creation</p>
+                                <p><span>✓</span> &nbsp; Automatic Feed Update</p>
+                                <p><span>✓</span> &nbsp; Automatic Product Update</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col my-2">
+                        <div class="card border-primary h-100">
+                            <div class="card-header text-center bg-primary fw-bold text-white">
+                                <span class="ribbon1"><span>POPULAR</span></span>PRO
+                            </div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">$ 49/month</h5>
+                                <p class="card-text">or <strong>$39.99/month</strong> with paying yearly Subscription
+                                    Fees of $479</p>
+                            </div>
+                            <div class="m-2">
+                                <p><span>✓</span> &nbsp; Includes all of Basic</p>
+                                <p><span>✓</span> &nbsp; Up to 5000 SKUs</p>
+                                <p><span>✓</span> &nbsp; 29 Shopping Channels</p>
+                                <p><span>✓</span> &nbsp; Up to 10 Feeds</p>
+                                <p><span>✓</span> &nbsp; CSV,XML,TXT Custom Feed</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col my-2">
+                        <div class="card border-primary h-100">
+                            <div class="card-header text-center bg-primary fw-bold text-white">ENTERPRISE</div>
+                            <div class="card-body text-center">
+                                <h5 class="card-title">$ 99/month</h5>
+                                <p class="card-text">or <strong>$79.99/month</strong> with paying yearly Subscription
+                                    Fees of $959</p>
+                            </div>
+                            <div class="m-2">
+                                <p><span>✓</span> &nbsp; Includes all of Pro</p>
+                                <p><span>✓</span> &nbsp; Up to 50000 SKUs</p>
+                                <p><span>✓</span> &nbsp; Priority Customer Service</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <p><strong>Note: </strong>All charges are billed in USD.</p>
+                </div>
+            </div>
+        </section>
+        <section id="install" class="bg-primary">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="title txt-x-medium">
+                            Get Started With A Free Trial
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div>
+                            <a href="https://apps.shopify.com/product-feeds-generator" class="button line right my-1"
+                                target="_blank">
+                                Shopify Install
+                            </a>
+                            <a href="https://www.bigcommerce.com/apps/product-feed-generator/" target="_blank"
+                                class="button line right">
+                                Bigcommerce Install
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+        <div class="container">
+            <div class="text-center py-2">
+                <div class="description">
+                    We help over 5000+ merchants increase product visibility and sales by listing their products on
+                    shopping engines.
+                </div>
+            </div>
+            <div class="nav justify-content-center">
+                <ul>
+                    <li>
+                        <a href="https://expresstech.io/privacy-policy/" target="_blank">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://help.expresstech.io/hc/3350240449/article/76" target="_blank">
+                            Terms Of Service
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- <div class="copyright text-center">
+                © 2020 FeedGeni. All Rights Reserved.
+            </div> -->
+            <div class="logo text-center py-3">
+                <img src="assets/icons/feedgeni-logo.svg"><span class="copyright text-center"> © 2021 FeedGeni
+                    (ExpressTech Systems). All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+
+        //All in one
+        $("#bf-btn").click(function () {
+
+            $("#illustration-bf").addClass("active");
+            $("#illustration-cf").removeClass("active");
+            $("#illustration-pm").removeClass("active");
+            $("#illustration-ms").removeClass("active");
+
+            $("#bf-btn").addClass("active");
+            $("#cf-btn").removeClass("active");
+            $("#pm-btn").removeClass("active");
+            $("#ms-btn").removeClass("active");
+        });
+
+        $("#cf-btn").click(function () {
+
+            $("#illustration-cf").addClass("active");
+            $("#illustration-bf").removeClass("active");
+            $("#illustration-pm").removeClass("active");
+            $("#illustration-ms").removeClass("active");
+
+            $("#cf-btn").addClass("active");
+            $("#bf-btn").removeClass("active");
+            $("#pm-btn").removeClass("active");
+            $("#ms-btn").removeClass("active");
+        });
+
+        $("#pm-btn").click(function () {
+            $("#illustration-pm").addClass("active");
+            $("#illustration-cf").removeClass("active");
+            $("#illustration-bf").removeClass("active");
+            $("#illustration-ms").removeClass("active");
+
+            $("#pm-btn").addClass("active");
+            $("#cf-btn").removeClass("active");
+            $("#bf-btn").removeClass("active");
+            $("#ms-btn").removeClass("active");
+        });
+
+        $("#ms-btn").click(function () {
+            $("#illustration-ms").addClass("active");
+            $("#illustration-pm").removeClass("active");
+            $("#illustration-cf").removeClass("active");
+            $("#illustration-bf").removeClass("active");
+
+            $("#ms-btn").addClass("active");
+            $("#pm-btn").removeClass("active");
+            $("#cf-btn").removeClass("active");
+            $("#bf-btn").removeClass("active");
+
+        });
+
+        //End All in one
+
+
+        //integrations
+        $("#mr-btn").click(function () {
+
+            $("#mr-child").addClass("active");
+            $("#ep-child").removeClass("active");
+            $("#se-child").removeClass("active");
+
+
+            $("#illustration-mr").addClass("active");
+            $("#illustration-ep").removeClass("active");
+            $("#illustration-se").removeClass("active");
+
+
+            $("#mr-btn").addClass("active");
+            $("#ep-btn").removeClass("active");
+            $("#se-btn").removeClass("active");
+        });
+
+        $("#ep-btn").click(function () {
+
+            $("#mr-child").removeClass("active");
+            $("#ep-child").addClass("active");
+            $("#se-child").removeClass("active");
+
+
+            $("#illustration-mr").removeClass("active");
+            $("#illustration-ep").addClass("active");
+            $("#illustration-se").removeClass("active");
+
+
+            $("#mr-btn").removeClass("active");
+            $("#ep-btn").addClass("active");
+            $("#se-btn").removeClass("active");
+        });
+
+        $("#se-btn").click(function () {
+
+            $("#mr-child").removeClass("active");
+            $("#ep-child").removeClass("active");
+            $("#se-child").addClass("active");
+
+
+            $("#illustration-mr").removeClass("active");
+            $("#illustration-ep").removeClass("active");
+            $("#illustration-se").addClass("active");
+
+
+            $("#mr-btn").removeClass("active");
+            $("#ep-btn").removeClass("active");
+            $("#se-btn").addClass("active");
+        });
+
+        //End integrations
+
+        // scroller   
+        $(document).ready(function () {
+            var scrollTop = 0;
+            $(window).scroll(function () {
+                scrollTop = $(window).scrollTop();
+
+            });
+
+            $('#menu-mobile').on('click', function (event) {
+                $('#box-menu').addClass('active');
+                event.stopPropagation();
+            });
+
+            $('#closer').on('click', function (event) {
+
+                $('#box-menu').removeClass('active');
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+
+                event.stopPropagation();
+            });
+        });
+
+        $(document).ready(function () {
+            var scrollTop = 0;
+            $(window).scroll(function () {
+                scrollTop = $(window).scrollTop();
+                //  $('.header').html(scrollTop);
+
+                if (scrollTop >= 80) {
+                    $('.nav-header').addClass('scrolling');
+                } else if (scrollTop < 50) {
+                    $('.nav-header').removeClass('scrolling');
+                }
+
+                if (scrollTop >= 80) {
+                    $('.scroller').addClass('active');
+                } else {
+                    $('.scroller').removeClass('active');
+                }
+            });
+
+            $('#go-scroll').on('click', function (event) {
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+                event.stopPropagation();
+            });
+        });
+
+     // end scroller 
+    </script>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-<script>
-	
-	//All in one
-	$("#bf-btn").click(function(){
-		
-			 $("#illustration-bf").addClass("active");
-			 $("#illustration-cf").removeClass("active");
-			 $("#illustration-pm").removeClass("active");
-			 $("#illustration-ms").removeClass("active");
 
-			 $("#bf-btn").addClass("active");
-			 $("#cf-btn").removeClass("active");
-			 $("#pm-btn").removeClass("active");
-			$("#ms-btn").removeClass("active");
-	});
-
-	$("#cf-btn").click(function(){
-		
-			$("#illustration-cf").addClass("active");
-			 $("#illustration-bf").removeClass("active");
-			 $("#illustration-pm").removeClass("active");
-			 $("#illustration-ms").removeClass("active");
-
-			 $("#cf-btn").addClass("active");
-			 $("#bf-btn").removeClass("active");
-			 $("#pm-btn").removeClass("active");
-			$("#ms-btn").removeClass("active");
-	});
-
-	$("#pm-btn").click(function(){
-			$("#illustration-pm").addClass("active");
-			$("#illustration-cf").removeClass("active");
-			 $("#illustration-bf").removeClass("active");
-			 $("#illustration-ms").removeClass("active");
-
-			 $("#pm-btn").addClass("active");
-			 $("#cf-btn").removeClass("active");
-			 $("#bf-btn").removeClass("active");
-			$("#ms-btn").removeClass("active");
-	});
-
-	$("#ms-btn").click(function(){
-			$("#illustration-ms").addClass("active");
-			$("#illustration-pm").removeClass("active");
-			$("#illustration-cf").removeClass("active");
-			 $("#illustration-bf").removeClass("active");
-
-			 $("#ms-btn").addClass("active");
-			 $("#pm-btn").removeClass("active");
-			 $("#cf-btn").removeClass("active");
-			 $("#bf-btn").removeClass("active");
-		
-	});
-
-	//End All in one
-
-
-	//integrations
-	$("#mr-btn").click(function(){
-
-		$("#mr-child").addClass("active");
-		$("#ep-child").removeClass("active");
-		$("#se-child").removeClass("active");
-
-
-		$("#illustration-mr").addClass("active");
-		$("#illustration-ep").removeClass("active");
-		$("#illustration-se").removeClass("active");
-		
-
-		$("#mr-btn").addClass("active");
-		$("#ep-btn").removeClass("active");
-		$("#se-btn").removeClass("active");
-	});
-
-	$("#ep-btn").click(function(){
-
-		$("#mr-child").removeClass("active");
-		$("#ep-child").addClass("active");
-		$("#se-child").removeClass("active");
-
-
-		$("#illustration-mr").removeClass("active");
-		$("#illustration-ep").addClass("active");
-		$("#illustration-se").removeClass("active");
-		
-
-		$("#mr-btn").removeClass("active");
-		$("#ep-btn").addClass("active");
-		$("#se-btn").removeClass("active");
-	});
-
-	$("#se-btn").click(function(){
-
-		$("#mr-child").removeClass("active");
-		$("#ep-child").removeClass("active");
-		$("#se-child").addClass("active");
-
-
-		$("#illustration-mr").removeClass("active");
-		$("#illustration-ep").removeClass("active");
-		$("#illustration-se").addClass("active");
-		
-
-		$("#mr-btn").removeClass("active");
-		$("#ep-btn").removeClass("active");
-		$("#se-btn").addClass("active");
-	});
-
-	//End integrations
-
-  	// scroller   
-    $(document).ready(function(){
-        var scrollTop = 0;
-        $(window).scroll(function(){
-          scrollTop = $(window).scrollTop();
-      
-        }); 
-        
-        $('#menu-mobile').on('click', function(event){
-          $('#box-menu').addClass('active');
-          event.stopPropagation();
-      }); 
-
-      $('#closer').on('click', function(event){
-        
-        $('#box-menu').removeClass('active');
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-          return false;
-          
-          event.stopPropagation();
-      }); 
-    });
-
-    $(document).ready(function(){
-      var scrollTop = 0;
-      $(window).scroll(function(){
-        scrollTop = $(window).scrollTop();
-       //  $('.header').html(scrollTop);
-
-        if (scrollTop >= 80) {
-          $('.nav-header').addClass('scrolling');
-        }else if (scrollTop < 50) {
-          $('.nav-header').removeClass('scrolling');
-        }
-
-        if (scrollTop >= 80) {
-          $('.scroller').addClass('active');
-        }else{
-          $('.scroller').removeClass('active');
-        }
-      });
-
-      $('#go-scroll').on('click', function(event){
-        $("html, body").animate({ scrollTop: 0 }, "slow");
-        return false;
-          event.stopPropagation();
-      });
-    });
-
- // end scroller 
-</script>
 </html>
