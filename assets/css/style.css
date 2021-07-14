@@ -50,6 +50,10 @@ display: flex;
     min-width: 50% !important;
 }
 
+.display{
+	display: block;
+}
+
 @media screen and (max-width: 768px) { 
     #hero button {
         width: 100%;
@@ -78,6 +82,9 @@ display: flex;
     #hero .img-col{
         margin-top: 15px;      
     }
+	.display {
+		display: none;
+	}
 
  }
  .description{
