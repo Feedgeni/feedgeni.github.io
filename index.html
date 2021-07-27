@@ -457,9 +457,11 @@
                                         <p class="card-text fst-italic">
                                             "The integration is perfect and works very well. The customer service is
                                             AMAZING. They always respond so quickly, friendly and always answer my
-                                            questions so quickly and effectively. It's not like other apps where you
-                                            have to wait ages for any doubt to be resolved. I've tried several product
-                                            feed apps before and this one is definitely the best."
+                                            questions so quickly and effectively. 
+                                            <span id="collapse" style="display:none; font: italic;">It's not like other apps where you
+                                                have to wait ages for any doubt to be resolved. I've tried several product
+                                                feed apps before and this one is definitely the best."</span>
+                                                <a href="#collapse" class="nav-toggle fst-italic">Read More</a>
                                         </p>
                                         <p class="text-end">
                                             <a
@@ -774,6 +776,21 @@
         });
 
      // end scroller 
+
+     $(document).ready(function () {
+    $('.nav-toggle').click(function () {
+        var collapse_content_selector = $(this).attr('href');
+        var toggle_switch = $(this);
+        $(collapse_content_selector).toggle(function () {
+            if ($(this).css('display') == 'none') {
+                toggle_switch.html('Read More');
+            } else {
+                toggle_switch.html('Read Less');
+            }
+        });
+    });
+
+});
     </script>
 </body>
 

@@ -401,7 +401,9 @@ height: 100%;
     content: "";
     position: absolute;
 }
-
+.carousel-control-next, .carousel-control-prev {
+	width: min-content;
+}
 /* .carousel-control-next-icon,
 .carousel-control-prev-icon {
 	background-color: blue;
