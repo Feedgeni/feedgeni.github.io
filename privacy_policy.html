@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Google Tag Manager -->
+    <script>
+        // Initialize the data layer for Google Tag Manager (this should mandatorily be done before the Privacy Controls and Cookie Solution is loaded)
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        // Default consent mode is "denied" for both ads and analytics as well as the optional types, but delay for 2 seconds until the Privacy Controls and Cookie Solution is loaded
+        gtag("consent", "default", {
+            ad_storage: "denied",
+            analytics_storage: "denied",
+            functionality_storage: "denied", // optional
+            personalization_storage: "denied", // optional
+            security_storage: "denied", // optional
+            wait_for_update: 2000 // milliseconds
+        });
+        // Improve ad click measurement quality (optional)
+        gtag('set', 'url_passthrough', true);
+        // Further redact your ads data (optional)
+        gtag("set", "ads_data_redaction", true);
+
+        // Google Tag Manager
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KSQZSKT'); //replace GTM-XXXXXX with the ID of your Google Analytics property
+    </script>
+    <!-- iubenda Privacy Controls and Cookie Solution -->
+    <script>
+        var _iub = _iub || [];
+
+        _iub.csConfiguration = {
+            lang: "en",
+            siteId: 2917166, //use your siteId
+            cookiePolicyId: 69281306, //use your cookiePolicyId
+            countryDetection: true,
+            perPurposeConsent: true,
+            purposes: "1,4,5",
+            consentOnContinuedBrowsing: false,
+            banner: {
+                position: "bottom",
+                acceptButtonDisplay: true,
+                customizeButtonDisplay: true,
+                rejectButtonDisplay: true
+            }
+        };
+    </script>
+    <script src="https://cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FeedGeni : The easiest way to create and manage products feed</title>
+
+    <meta property="og:title" content="FeedGeni" />
+    <meta property="og:description"
+        content="Enables merchants to create, manage and optimize product feeds for Snapchat, Facebook, Instagram, Pinterest, Google, Bing and other 30+ shopping channels in many countries." />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="icon" type="image/png" href="https://statics2.seodoctorapp.com/images/feedgeni.png">
+
+    <!-- Crisp -->
+    <script type="text/javascript">window.$crisp=[];window.CRISP_WEBSITE_ID="0e99b6dc-5d7e-403b-94a9-c19d5f511a09";(function(){d=document;s=d.createElement("script");s.src="https://client.crisp.chat/l.js";s.async=1;d.getElementsByTagName("head")[0].appendChild(s);})();</script>
+</head>
+
+<body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSQZSKT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+    <!-- Github -->
+    <header class="bg-light">
+        <!-- Nav Bar-->
+        <nav class="py-3 navbar navbar-expand-md fixed-top auto-hiding-navbar navbar-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/icons/feedgeni-logo.svg" class="logo" alt="FeedGeni Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#pricing-plans">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://app.feedgeni.com">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="mailto:hello@feedgeni.com">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Nav Bar end-->
+        <!--Hero Section Start-->
+        <section id="hero" style="margin-top: 100px;">
+            <div class="container">
+                <a href="https://www.iubenda.com/privacy-policy/69281306" class="iubenda-nostyle no-brand iubenda-noiframe iubenda-embed iub-no-markup iubenda-noiframe iub-body-embed" title="Privacy Policy">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+            </div>
+        </section>
+        <!--Hero Section End-->
+    </header>
+    <main>
+        <section>
+            <div class="container">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="text-center py-2">
+                <div class="description">
+                    We've helped over 5000+ merchants increase product visibility and sales by listing their products on
+                    shopping channels.
+                </div>
+            </div>
+            <div class="nav justify-content-center">
+                <ul>
+                    <li>
+                        <a href="privacy_policy.html">
+                            Privacy Policy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="terms_and_conditions.html">
+                            Terms & Conditions 
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="logo text-center py-3">
+                <img src="assets/icons/feedgeni-logo.svg"><span class="copyright text-center"> © 2022 FeedGeni
+                    (G, C & J Group ). All Rights Reserved.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script>
+
+        //All in one
+        $("#bf-btn").click(function () {
+
+            $("#illustration-bf").addClass("active");
+            $("#illustration-cf").removeClass("active");
+            $("#illustration-pm").removeClass("active");
+            $("#illustration-ms").removeClass("active");
+
+            $("#bf-btn").addClass("active");
+            $("#cf-btn").removeClass("active");
+            $("#pm-btn").removeClass("active");
+            $("#ms-btn").removeClass("active");
+        });
+
+        $("#cf-btn").click(function () {
+
+            $("#illustration-cf").addClass("active");
+            $("#illustration-bf").removeClass("active");
+            $("#illustration-pm").removeClass("active");
+            $("#illustration-ms").removeClass("active");
+
+            $("#cf-btn").addClass("active");
+            $("#bf-btn").removeClass("active");
+            $("#pm-btn").removeClass("active");
+            $("#ms-btn").removeClass("active");
+        });
+
+        $("#pm-btn").click(function () {
+            $("#illustration-pm").addClass("active");
+            $("#illustration-cf").removeClass("active");
+            $("#illustration-bf").removeClass("active");
+            $("#illustration-ms").removeClass("active");
+
+            $("#pm-btn").addClass("active");
+            $("#cf-btn").removeClass("active");
+            $("#bf-btn").removeClass("active");
+            $("#ms-btn").removeClass("active");
+        });
+
+        $("#ms-btn").click(function () {
+            $("#illustration-ms").addClass("active");
+            $("#illustration-pm").removeClass("active");
+            $("#illustration-cf").removeClass("active");
+            $("#illustration-bf").removeClass("active");
+
+            $("#ms-btn").addClass("active");
+            $("#pm-btn").removeClass("active");
+            $("#cf-btn").removeClass("active");
+            $("#bf-btn").removeClass("active");
+
+        });
+
+        //End All in one
+
+
+        //integrations
+        $("#mr-btn").click(function () {
+
+            $("#mr-child").addClass("active");
+            $("#ep-child").removeClass("active");
+            $("#se-child").removeClass("active");
+
+
+            $("#illustration-mr").addClass("active");
+            $("#illustration-ep").removeClass("active");
+            $("#illustration-se").removeClass("active");
+
+
+            $("#mr-btn").addClass("active");
+            $("#ep-btn").removeClass("active");
+            $("#se-btn").removeClass("active");
+        });
+
+        $("#ep-btn").click(function () {
+
+            $("#mr-child").removeClass("active");
+            $("#ep-child").addClass("active");
+            $("#se-child").removeClass("active");
+
+
+            $("#illustration-mr").removeClass("active");
+            $("#illustration-ep").addClass("active");
+            $("#illustration-se").removeClass("active");
+
+
+            $("#mr-btn").removeClass("active");
+            $("#ep-btn").addClass("active");
+            $("#se-btn").removeClass("active");
+        });
+
+        $("#se-btn").click(function () {
+
+            $("#mr-child").removeClass("active");
+            $("#ep-child").removeClass("active");
+            $("#se-child").addClass("active");
+
+
+            $("#illustration-mr").removeClass("active");
+            $("#illustration-ep").removeClass("active");
+            $("#illustration-se").addClass("active");
+
+
+            $("#mr-btn").removeClass("active");
+            $("#ep-btn").removeClass("active");
+            $("#se-btn").addClass("active");
+        });
+
+        //End integrations
+
+        // scroller   
+        $(document).ready(function () {
+            var scrollTop = 0;
+            $(window).scroll(function () {
+                scrollTop = $(window).scrollTop();
+
+            });
+
+            $('#menu-mobile').on('click', function (event) {
+                $('#box-menu').addClass('active');
+                event.stopPropagation();
+            });
+
+            $('#closer').on('click', function (event) {
+
+                $('#box-menu').removeClass('active');
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+
+                event.stopPropagation();
+            });
+        });
+
+        $(document).ready(function () {
+            var scrollTop = 0;
+            $(window).scroll(function () {
+                scrollTop = $(window).scrollTop();
+                //  $('.header').html(scrollTop);
+
+                if (scrollTop >= 80) {
+                    $('.nav-header').addClass('scrolling');
+                } else if (scrollTop < 50) {
+                    $('.nav-header').removeClass('scrolling');
+                }
+
+                if (scrollTop >= 80) {
+                    $('.scroller').addClass('active');
+                } else {
+                    $('.scroller').removeClass('active');
+                }
+            });
+
+            $('#go-scroll').on('click', function (event) {
+                $("html, body").animate({ scrollTop: 0 }, "slow");
+                return false;
+                event.stopPropagation();
+            });
+        });
+
+     // end scroller 
+
+     $(document).ready(function () {
+    $('.nav-toggle').click(function () {
+        var collapse_content_selector = $(this).attr('href');
+        var toggle_switch = $(this);
+        $(collapse_content_selector).toggle(function () {
+            if ($(this).css('display') == 'none') {
+                toggle_switch.html('Read More');
+            } else {
+                toggle_switch.html('Read Less');
+            }
+        });
+    });
+
+});
+    </script>
+</body>
+
+</html>
