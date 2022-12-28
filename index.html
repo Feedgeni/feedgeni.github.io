@@ -2,15 +2,65 @@
 <html lang="en">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y19RG3MN81"></script>
+    <!-- Google Tag Manager -->
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
+        // Initialize the data layer for Google Tag Manager (this should mandatorily be done before the Privacy Controls and Cookie Solution is loaded)
+        window.dataLayer = window.dataLayer || [];
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        // Default consent mode is "denied" for both ads and analytics as well as the optional types, but delay for 2 seconds until the Privacy Controls and Cookie Solution is loaded
+        gtag("consent", "default", {
+            ad_storage: "denied",
+            analytics_storage: "denied",
+            functionality_storage: "denied", // optional
+            personalization_storage: "denied", // optional
+            security_storage: "denied", // optional
+            wait_for_update: 2000 // milliseconds
+        });
+        // Improve ad click measurement quality (optional)
+        gtag('set', 'url_passthrough', true);
+        // Further redact your ads data (optional)
+        gtag("set", "ads_data_redaction", true);
 
-      gtag('config', 'G-Y19RG3MN81');
+        // Google Tag Manager
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-KSQZSKT'); //replace GTM-XXXXXX with the ID of your Google Analytics property
     </script>
+    <!-- iubenda Privacy Controls and Cookie Solution -->
+    <script>
+        var _iub = _iub || [];
+
+        _iub.csConfiguration = {
+            lang: "en",
+            siteId: 2917166, //use your siteId
+            cookiePolicyId: 69281306, //use your cookiePolicyId
+            countryDetection: true,
+            perPurposeConsent: true,
+            purposes: "1,4,5",
+            consentOnContinuedBrowsing: false,
+            banner: {
+                position: "bottom",
+                acceptButtonDisplay: true,
+                customizeButtonDisplay: true,
+                rejectButtonDisplay: true
+            }
+        };
+    </script>
+    <script src="https://cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,6 +80,11 @@
 </head>
 
 <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KSQZSKT"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- Github -->
     <header class="bg-light">
         <!-- Nav Bar-->
